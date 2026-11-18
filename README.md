@@ -27,7 +27,7 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,php,java,dart&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,php,java,dart,python&theme=dark" alt="Languages" />
 
 **Frontend**
 
