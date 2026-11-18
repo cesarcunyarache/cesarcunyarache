@@ -33,9 +33,13 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&theme=dark" alt="Frontend" />
 
-**Backend & Data**
+**Backend & Testing**
 
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,jest,postgres,mongodb,docker&theme=dark" alt="Backend and data" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,laravel,jest,docker&theme=dark" alt="Backend and testing" />
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=dark" alt="Databases" />
 
 **Tools**
 
