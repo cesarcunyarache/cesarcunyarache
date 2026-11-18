@@ -12,14 +12,12 @@
 
 ## About
 
-```ts
-const cesar = {
-  role: "Software Developer",
-  focus: ["clean architecture", "testing", "developer experience"],
-  editor: "Neovim",
-  learning: "something new every week",
-};
-```
+I'm a software developer who cares about clean architecture, testing, and good developer experience.
+I like understanding the concepts before writing the code, and I'm always learning something new.
+
+- 🔭 Building: side projects and tools I use every day
+- 🌱 Learning: something new every week
+- 💬 Ask me about: architecture, testing, Neovim
 
 <br />
 
