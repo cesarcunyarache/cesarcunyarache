@@ -27,7 +27,7 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,go,bash&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,php,java,dart&theme=dark" alt="Languages" />
 
 **Frontend**
 
@@ -35,11 +35,11 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,docker&theme=dark" alt="Backend and data" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,jest,postgres,mongodb,docker&theme=dark" alt="Backend and data" />
 
 **Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,vim,vscode,linux&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,linux&theme=dark" alt="Tools" />
 
 </div>
 
