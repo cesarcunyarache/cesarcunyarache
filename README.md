@@ -27,11 +27,11 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,php,java,dart&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=ts,js,php,java,dart,c&theme=dark" alt="Languages" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma&theme=dark" alt="Frontend" />
+<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,tailwind,html,css,figma&theme=dark" alt="Frontend" />
 
 **Backend & Testing**
 
@@ -39,7 +39,11 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=dark" alt="Databases" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,supabase&theme=dark" alt="Databases" />
+
+**Observability**
+
+<img src="https://skillicons.dev/icons?i=grafana,prometheus,sentry&theme=dark" alt="Observability" />
 
 **Tools**
 
