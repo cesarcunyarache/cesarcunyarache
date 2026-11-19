@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" fill="none">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08122b"/><stop offset="1" stop-color="#050b1c"/></linearGradient>
+    <radialGradient id="cardGlow" cx="0.82" cy="0.1" r="0.6"><stop offset="0" stop-color="#2563eb" stop-opacity="0.28"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#93c5fd" stop-opacity="0.9"/><stop offset="0.6" stop-color="#3b82f6" stop-opacity="0.35"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bfdbfe"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+    .in { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    .rule { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s .3s ease-out forwards; }
+  </style>
+  <rect width="1200" height="150" rx="26" fill="#050b1c"/>
+  <g class="in" style="animation-delay:.05s">
+    <text x="50" y="42" class="mono" font-size="13" letter-spacing="4" fill="#60a5fa"><tspan fill="#eaf2ff" font-weight="700">04</tspan>  CONNECT</text>
+    <text x="1150" y="42" class="mono" font-size="12" letter-spacing="4" text-anchor="end" fill="#6f9ae0">SAY HELLO</text>
+  </g>
+  <g class="in" style="animation-delay:.15s">
+    <text x="48" y="104" class="serif" font-size="56" letter-spacing="-1" fill="#f4f8ff">Let's <tspan font-style="italic" fill="url(#name)">talk</tspan><tspan fill="#60a5fa">.</tspan></text>
+  </g>
+  <line class="rule" x1="50" y1="128" x2="1150" y2="128" stroke="url(#rule)" stroke-width="1.5"/>
+  <circle cx="50" cy="128" r="4" fill="#bfdbfe" opacity="0.9"><animateMotion dur="9s" repeatCount="indefinite" path="M0 0 H1000"/></circle>
+</svg>

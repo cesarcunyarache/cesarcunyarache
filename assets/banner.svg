@@ -103,8 +103,8 @@
   <!-- footer -->
   <g class="in d6">
     <line x1="60" y1="456" x2="1140" y2="456" stroke="#3b82f6" stroke-opacity="0.22"/>
-    <text x="60" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#6684b8">CLEAN ARCHITECTURE · TESTING · DEVEX</text>
-    <text x="1140" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#8fb4ee" text-anchor="end">TYPESCRIPT · NESTJS · FLUTTER · LARAVEL</text>
+    <text x="60" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#6684b8">01 ABOUT  ·  02 STACK  ·  03 ACTIVITY  ·  04 CONNECT</text>
+    <text x="1140" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#8fb4ee" text-anchor="end">SCROLL ↓</text>
   </g>
 
   <!-- orbit + arch -->
