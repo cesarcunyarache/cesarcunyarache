@@ -6,14 +6,11 @@
 
 <br />
 
-## About
+<div align="center">
 
-I'm a software developer who cares about clean architecture, testing, and good developer experience.
-I like understanding the concepts before writing the code, and I'm always learning something new.
+<img src="assets/about.svg" alt="About Cesar Cunyarache" width="100%" />
 
-- 🔭 Building: side projects and tools I use every day
-- 🌱 Learning: something new every week
-- 💬 Ask me about: architecture, testing, Neovim
+</div>
 
 <br />
 
