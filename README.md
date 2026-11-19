@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2937,100:374151&height=200&section=header&text=Cesar%20Cunyarache&fontSize=48&fontColor=f3f4f6&fontAlignY=38&animation=fadeIn&desc=Software%20Developer&descSize=18&descColor=9ca3af&descAlignY=58" alt="Cesar Cunyarache" width="100%" />
-
-<a href="https://github.com/cesarcunyarache">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=9CA3AF&center=true&vCenter=true&width=520&lines=Concepts+before+code;Clean+architecture+%26+testing;Building+in+public;Always+learning" alt="Typing animation" />
-</a>
+<img src="assets/banner.svg" alt="Cesar Cunyarache — Software Developer" width="100%" />
 
 </div>
 

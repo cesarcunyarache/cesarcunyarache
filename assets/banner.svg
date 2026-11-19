@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="506" viewBox="0 0 1200 506" fill="none" role="img" aria-label="Cesar Cunyarache — Software Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040916"/>
+      <stop offset="0.55" stop-color="#0a1a3f"/>
+      <stop offset="1" stop-color="#050b1c"/>
+    </linearGradient>
+    <radialGradient id="glowR" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.15" cy="0.85" r="0.4">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="nameB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f6ff"/>
+      <stop offset="1" stop-color="#7db2ff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="arch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a8a" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0b1a40" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="archStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0.3"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#3b82f6" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="506" rx="26"/></clipPath>
+    <path id="orbit" d="M930 85 a170 170 0 1 1 -0.01 0"/>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+    .in { opacity: 0; animation: up 0.9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes caret { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes draw { from { stroke-dashoffset: 520; } to { stroke-dashoffset: 0; } }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .5s; }
+    .d4 { animation-delay: .75s; } .d5 { animation-delay: .95s; } .d6 { animation-delay: 1.15s; }
+    .ring { transform-origin: 930px 255px; animation: spin 60s linear infinite; }
+    .ring2 { transform-origin: 930px 255px; animation: spin 90s linear infinite reverse; }
+    .node { animation: pulse 3s ease-in-out infinite; }
+    .caret { animation: caret 1s steps(1) infinite; }
+    .rule { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 1.4s .6s ease-out forwards; }
+    .fadein { opacity: 0; animation: fade 1.2s 1s ease-out forwards; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="506" fill="url(#bg)"/>
+    <rect width="1200" height="506" fill="url(#grid)"/>
+    <rect width="1200" height="506" fill="url(#glowR)"/>
+    <rect width="1200" height="506" fill="url(#glowL)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="505" rx="25.5" stroke="#3b82f6" stroke-opacity="0.28"/>
+
+  <!-- terminal pill -->
+  <g class="in d1">
+    <rect x="60" y="44" width="318" height="36" rx="18" fill="#0a1636" fill-opacity="0.8" stroke="#3b82f6" stroke-opacity="0.35"/>
+    <circle cx="80" cy="62" r="4.5" fill="#60a5fa"/>
+    <text x="96" y="67" class="mono" font-size="13.5" fill="#8fb4ee">~/cesar <tspan fill="#60a5fa">$</tspan><tspan fill="#eaf2ff"> build --scalable</tspan><tspan class="caret" fill="#60a5fa"> ▌</tspan></text>
+  </g>
+
+  <!-- eyebrow -->
+  <g class="in d2">
+    <line x1="60" y1="122" x2="100" y2="122" stroke="#60a5fa" stroke-opacity="0.7"/>
+    <text x="114" y="127" class="mono" font-size="13" letter-spacing="4.2" fill="#6f9ae0">SOFTWARE · ARCHITECTURE · TESTING</text>
+  </g>
+
+  <!-- name -->
+  <g class="in d3">
+    <text x="56" y="226" class="serif" font-size="104" letter-spacing="-2" fill="url(#nameA)">Cesar</text>
+  </g>
+  <g class="in d4">
+    <text x="56" y="322" class="serif" font-size="104" font-style="italic" letter-spacing="-2" fill="url(#nameB)">Cunyarache<tspan fill="#60a5fa" font-style="normal">.</tspan></text>
+  </g>
+
+  <path class="rule" d="M60 352 C 260 346, 480 358, 700 350" stroke="url(#rule)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- roles -->
+  <g class="in d5">
+    <text x="60" y="394" class="mono" font-size="15" letter-spacing="3.4" fill="#eaf2ff">BACKEND DEV · MOBILE · OBSERVABILITY</text>
+    <text x="60" y="428" class="serif" font-size="20" font-style="italic" fill="#8da8d6">Engineering clean systems. Shipping reliable software.</text>
+  </g>
+
+  <!-- footer -->
+  <g class="in d6">
+    <line x1="60" y1="456" x2="1140" y2="456" stroke="#3b82f6" stroke-opacity="0.22"/>
+    <text x="60" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#6684b8">CLEAN ARCHITECTURE · TESTING · DEVEX</text>
+    <text x="1140" y="482" class="mono" font-size="11.5" letter-spacing="2.6" fill="#8fb4ee" text-anchor="end">TYPESCRIPT · NESTJS · FLUTTER · LARAVEL</text>
+  </g>
+
+  <!-- orbit + arch -->
+  <g class="fadein">
+    <circle cx="930" cy="255" r="170" stroke="#60a5fa" stroke-opacity="0.35"/>
+    <g class="ring2"><circle cx="930" cy="255" r="205" stroke="#60a5fa" stroke-opacity="0.2" stroke-dasharray="2 9"/></g>
+    <g class="ring"><circle cx="930" cy="255" r="140" stroke="#93c5fd" stroke-opacity="0.35" stroke-dasharray="40 14 4 14"/></g>
+
+    <path d="M835 400 V224 A95 95 0 0 1 1025 224 V400 Z" fill="url(#arch)" stroke="url(#archStroke)" stroke-width="1.5"/>
+    <path d="M850 392 V226 A80 80 0 0 1 1010 226 V392" stroke="#60a5fa" stroke-opacity="0.18"/>
+
+    <text x="930" y="290" class="serif" font-size="86" font-style="italic" text-anchor="middle" fill="#dbeafe" fill-opacity="0.95">C<tspan fill="#60a5fa">C</tspan></text>
+    <text x="930" y="334" class="mono" font-size="12" letter-spacing="4" text-anchor="middle" fill="#6f9ae0">&lt;/&gt; DEV</text>
+
+    <!-- frame corners -->
+    <path d="M805 262 V240 H828" stroke="#93c5fd" stroke-opacity="0.7"/>
+    <path d="M1055 420 V440 H1033" stroke="#93c5fd" stroke-opacity="0.7"/>
+
+    <!-- orbiting dot -->
+    <circle r="5" fill="#bfdbfe">
+      <animateMotion dur="14s" repeatCount="indefinite"><mpath href="#orbit"/></animateMotion>
+    </circle>
+
+    <!-- nodes -->
+    <g class="mono" font-size="12" letter-spacing="2" fill="#8fb4ee">
+      <circle class="node" cx="810" cy="140" r="4" fill="#60a5fa"/><text x="824" y="145">API</text>
+      <circle class="node" style="animation-delay:.7s" cx="1078" cy="160" r="4" fill="#60a5fa"/><text x="1088" y="165">DB</text>
+      <circle class="node" style="animation-delay:1.4s" cx="776" cy="300" r="4" fill="#60a5fa"/><text x="738" y="305">UI</text>
+      <circle class="node" style="animation-delay:2.1s" cx="1090" cy="352" r="4" fill="#60a5fa"/><text x="1100" y="357">CLOUD</text>
+    </g>
+    <circle class="node" cx="1100" cy="255" r="2.5" fill="#bfdbfe"/>
+    <circle class="node" style="animation-delay:1s" cx="760" cy="215" r="2" fill="#93c5fd"/>
+  </g>
+</svg>
