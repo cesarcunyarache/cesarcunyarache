@@ -39,22 +39,15 @@ I like understanding the concepts before writing the code, and I'm always learni
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,supabase&theme=dark" alt="Databases" />
+<img src="assets/databases.svg" alt="Databases" />
 
 **Observability**
 
-<img src="https://skillicons.dev/icons?i=grafana,prometheus,sentry&theme=dark" alt="Observability" />
-
-<br />
-
-![PostHog](https://img.shields.io/badge/-PostHog-1d1f27?style=for-the-badge&logo=posthog&logoColor=F9BD2B)
-![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-1d1f27?style=for-the-badge&logo=opentelemetry&logoColor=F5A800)
-![Loki](https://img.shields.io/badge/-Loki-1d1f27?style=for-the-badge&logo=grafana&logoColor=F46800)
-![Tempo](https://img.shields.io/badge/-Tempo-1d1f27?style=for-the-badge&logo=grafana&logoColor=F46800)
+<img src="assets/observability.svg" alt="Observability" />
 
 **Tools & DevOps**
 
-<img src="https://skillicons.dev/icons?i=git,github,linux,docker,vercel,postman,rabbitmq&theme=dark" alt="Tools and DevOps" />
+<img src="assets/tools.svg" alt="Tools and DevOps" />
 
 </div>
 
